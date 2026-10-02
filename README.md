@@ -43,6 +43,20 @@ Built as the midterm project for an Object-Oriented Programming course.
 
 You need a C++17 compiler (g++ or clang++).
 
+### Quick start (one command)
+
+Run this command in the terminal. It downloads the project from GitHub into a temporary folder, compiles it and starts the program:
+
+```bash
+D=$(mktemp -d) && gh repo clone Alizea2/Temperature-Viewer "$D" && cd "$D" && g++ -std=c++17 *.cpp -o TemperatureViewer && ./TemperatureViewer
+```
+
+> This needs the [GitHub CLI](https://cli.github.com/) (`gh`) signed in to an account that can access this repository.
+
+### Manual build
+
+From inside the project folder:
+
 ```bash
 g++ -std=c++17 *.cpp -o TemperatureViewer
 ./TemperatureViewer
