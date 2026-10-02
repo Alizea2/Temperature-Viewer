@@ -67,4 +67,4 @@ Run the program from the folder that contains `weather_data.csv`. Loading the da
 
 ## Author
 
-[@alizeaarif04](https://github.com/alizeaarif04)
+[@Alizea2](https://github.com/Alizea2)
